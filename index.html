@@ -34,12 +34,12 @@
             </header>
         </div>
 
-        
+
 
         <div class="main-container">
             <div class="main wrapper clearfix">
             	<article style="text-align:center;">
-            	<img src="http://mattsurabian.com/img/tree.png" border="0" height="500" class="tree"/>   
+            	<img src="http://mattsurabian.com/img/tree.png" border="0" height="500" class="tree"/>
             	<nav>
            	 	<ul>
                 <li><a href="#Bio">bio</a></li>
@@ -50,7 +50,7 @@
             	</ul>
         	</nav>
             	</article>
-					
+
                 <article class="article">
                     <section>
                         <h1 class="title"><a name="Bio">Bio</a></h1>
@@ -66,7 +66,7 @@
 						<a href="#" class="toTop">TOP</a>
 					</section>
                 </article>
-                
+
                 <article class="article">
                 <h1 class="title"><a name="Skills">Skills</a></h1>
                 	<section>
@@ -90,16 +90,16 @@
 						<p><a href="duckhunt/"><img src="img/duckHunt.jpg" hspace="7"/><small>DuckHunt.JS</small></a>
 						</p>
 					</section>
-					
+
 					<section>
 						<p><a href="choosewisely/"><img src="img/chooseWisely.jpg" hspace="7" style="width:290px;border:2px solid;"/><small>ChooseWisely</small></a></p>
 					</section>
-					
+
 					<section>
 						<a href="#" class="toTop">TOP</a>
 					</section>
 				</article>
-				
+
 				<article class="article">
 				<h1 class="title"><a name="Contact">Contact</a></h1>
 				<section>
@@ -128,11 +128,39 @@
         <script src="js/vendor/jrumble.js"></script>
         <script src="js/main.js"></script>
 
-        <script>
-            var _gaq=[['_setAccount','UA-26377557-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+        <script type="text/javascript">
+          var _gap = _gap || [];
+
+          // Standard Google Analytics pushes, just with _gap.push.
+          // You can push anything, just like normal, via _gap.push instead of _gaq.push.
+          _gap.push(['_setAccount', 'UA-26377557-1']);
+          _gap.push(['_trackPageview']);
+
+          // With both bounce trackers active, any user who scrolls down 50% OR
+          // stays 10 seconds is not counted as a bounce. You can use just one, or none.
+          _gap.push(['_gapTrackBounceViaTime', 10]); // Optionally change (min seconds).
+          _gap.push(['_gapTrackBounceViaScroll', 50]); // Optionally change (min percentage).
+
+          // Every 20 seconds, push a read event so that time on site is more accurate.
+          // Only allow 30 of these read events per page.
+          _gap.push(['_gapTrackReads', 20, 30]); // Optionally change (cadence and max read events per page).
+
+          // Anytime a user clicks a link, internal or external, push the event.
+          _gap.push(['_gapTrackLinkClicks']);
+
+          // Push the maximum percentage scrolled.
+          _gap.push(['_gapTrackMaxScroll', 25]); // Optionally change (min percentage).
+
+          (function() {
+            var gap = document.createElement('script');
+            gap.async = true;
+            gap.type = 'text/javascript';
+            gap.src = 'js/gap.min.js';
+
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gap, s);
+          })();
         </script>
+
     </body>
 </html>
