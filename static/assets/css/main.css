@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 10vh;
+    margin: 0;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #148608;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #ff8c00;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img{
+    border: 2px solid #333;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 2px;
+    margin: 10px;
+    width:17vw;
+    height:17vw;
+}
+
+h1 {
+    font-size: 10vw;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.w i {
+    font-size: 8vw;
+    padding: 11px;
+}
+
+.backstretch {
+    opacity: .25;
+}
+
+.quote {
+    padding: 0 20vw;
+}
+
+@media all and (max-height: 600px) {
+   body {
+       padding-top: 1vh;
+   }
+}
+
+@media all and (max-width:500px) {
+    .logo img{
+        width: 27vw;
+        height: 27vw;
+    }
+
+    .w i {
+        padding: 9px;
+    }
+}
+@media all and (min-width: 900px) {
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    .w i {
+        font-size: 5vw;
+        padding: 12px;
+    }
+
+    .logo img {
+        width: 14vw;
+        height: 14vw;
+    }
+}
