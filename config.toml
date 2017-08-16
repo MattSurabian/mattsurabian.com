@@ -1,0 +1,85 @@
+# Site settings
+baseurl = "https://mattsurabian.com/"
+languageCode = "en-us"
+title = "Matt Surabian"
+theme = "hugo-smpl-theme"
+
+# Disable built in Google Analytics so GAP can be used
+# see: https://github.com/rockymadden/gap
+# googleAnalytics = "UA-49232079-1"
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Matt Surabian"
+  description = "Matt's personal website with contact info and links to his development blog and other projects."
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 2000
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "//www.gravatar.com/avatar/161d1dbd0b4a850d26014bdcdb0145d1?s=200"
+    alt = "Matt's gravatar"
+    width = "200"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "Matt Surabian"
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "New England tinkerer, fringe hippy, tinfoil hat model. Showing machines who's boss as [Bocoup's](https://bocoup.com) Principal Infrastructure Engineer."
+
+  # Social icons section
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "http://twitter.com/mattsurabian"
+
+  [[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin"
+    link = "https://www.linkedin.com/in/im-matt-surabian/"
+
+  [[params.social]]
+    title = "Blog"
+    icon = "fa-comment"
+    link = "http://mattsurabian.github.io"
+
+  [[params.social]]
+    title = "Email Me!"
+    icon = "fa-envelope"
+    link = "mailto:matt@mattsurabian.com"
+
+  [[params.social]]
+    title = "Github"
+    icon = "fa-github"
+    link = "https://github.com/mattsurabian"
+
+ [[params.social]]
+    title = "DuckhuntJS"
+    icon = "fa-gamepad"
+    link = "https://duckhuntjs.com"
+
+ [[params.social]]
+    title = "Keybase"
+    icon = "fa-key"
+    link = "https://keybase.io/mattsurabian"

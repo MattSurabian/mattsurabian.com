@@ -1,8 +1,8 @@
 mattsurabian.com
 ================
 
-Repo of my website hosted on S3.
+Repo of my website hosted on S3 built with [Hugo] a static site generator 
+built in golang. Background photo is my own and republication rights are
+reserved. 
 
-Simple 1 page scrolling site built with initializer and html5 bootstrap to leverage responsive design.  
-
-Includes a customized version of jrumble.  See header comments in the jrumble file for more information on the changes.
+[Hugo]: https://gohugo.io/

@@ -1,0 +1,7 @@
+<div class="row centered">
+    <div class="w">
+        {{ range .Site.Params.social }}
+        <a title="{{ .title }}" href="{{ .link }}" target="_blank"><i class="fa {{ .icon }}"></i></a>
+        {{ end }}
+    </div>
+</div>
