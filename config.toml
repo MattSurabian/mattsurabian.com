@@ -43,7 +43,7 @@ theme = "hugo-smpl-theme"
   # Quote section
   [params.quote]
     enable = true
-    text = "New England tinkerer, fringe hippy, tinfoil hat model. Showing machines who's boss as [Bocoup's](https://bocoup.com) Principal Infrastructure Engineer."
+    text = "New England tinkerer, fringe hippy, tinfoil hat model. Showing machines who's boss as a Senior Infrastructure Engineer at [Zipcar](http://zipcar.com)."
 
   # Social icons section
   [params.social_icons]
