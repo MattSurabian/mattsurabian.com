@@ -50,11 +50,6 @@ theme = "hugo-smpl-theme"
     enable = true
 
   [[params.social]]
-    title = "Twitter"
-    icon = "fa-twitter"
-    link = "http://twitter.com/mattsurabian"
-
-  [[params.social]]
     title = "LinkedIn"
     icon = "fa-linkedin"
     link = "https://www.linkedin.com/in/im-matt-surabian/"
