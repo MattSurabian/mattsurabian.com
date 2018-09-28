@@ -51,30 +51,35 @@ theme = "hugo-smpl-theme"
 
   [[params.social]]
     title = "LinkedIn"
-    icon = "fa-linkedin"
+    icon = "icon-linkedin"
     link = "https://www.linkedin.com/in/im-matt-surabian/"
 
   [[params.social]]
+    title = "Presentations"
+    icon = "icon-slides"
+    link = "https://mattsurabian.github.io/presentations/"
+
+  [[params.social]]
     title = "Blog"
-    icon = "fa-comment"
+    icon = "icon-comment"
     link = "http://mattsurabian.github.io"
 
   [[params.social]]
     title = "Email Me!"
-    icon = "fa-envelope"
+    icon = "icon-mail"
     link = "mailto:matt@mattsurabian.com"
 
   [[params.social]]
     title = "Github"
-    icon = "fa-github"
+    icon = "icon-github"
     link = "https://github.com/mattsurabian"
 
  [[params.social]]
     title = "DuckhuntJS"
-    icon = "fa-gamepad"
+    icon = "icon-gamepad"
     link = "https://duckhuntjs.com"
 
  [[params.social]]
     title = "Keybase"
-    icon = "fa-key"
+    icon = "icon-key"
     link = "https://keybase.io/mattsurabian"
